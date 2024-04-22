@@ -1,183 +1,139 @@
-    *{
-        margin:0;
-        padding:0;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    }
-
-
-    body{
-    width:80%;
-    margin: 0 auto ;
-    background-color:rgb(236,236,234);
-    padding: 20px;
-    font-family: "Helvetica",sans-serif;
-    
-    
-    }
-
-   .menu{
-    display: flex;
-    justify-content: space-between;
-  
-   }
-
-   .links{
-    border: 1px solid #fff;
-    display: flex;
-    justify-content: flex-end;
-
-   }
-
-
-   .login{
-    margin-left: 20px;
-   }
-
-
-   .flex-contanier{
-    flex-direction:row;
+.menu-item{
     justify-content: space-around;
     display: flex;
+    margin-left: 100px;
     align-items: center;
+    width: 80%;
+    margin-top: 50px;
+}
+
+
+.menu-item a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    padding: 10px;
+    border-radius: 7px;
+    
  
+}
+
+.menu-item a:hover{
+    background-color: red;
     
+}
+
+
+.articles{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    align-content: center;
     
 
-   }
 
-   .flex-item{
-    flex:0 1 auto;
-    align-self:center;
-    order: 2;
-   }
+}
 
-   .header-container{
-    color: #5995DA;
-    background-color: #D6E9FE ;
-    display:flex;
+.articles .info {
+ 
+   max-height: 100px;
+   width: 50%;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   margin-top: 50px;
+}
+
+
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
-
+  }
+  .footer {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    text-align: center;   
+    padding-top: 10px;
+    align-items: center ;
     
-   }
-
-   .header{
-    width: 900px;
-    height:300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    } */
-
-    /* .photo-grid{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        justify-content:center ;
-    } */
-
-
-    .photo-grid-container{
-        display: flex;
-        justify-content: center;
-    }
-
-    .photo-grid{
-       
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 900px;
-    }
-
-
-    .photo-grid-item{
-        border: 1px solid red ;
-        width:300px;
-        height:300px;
-        
-    }
-
-    .fourth-item{
-        border: 5px solid blue;
-    }
-
-
     
 
-   
-  
+  }
 
-  
-   
-   
-/* 
-   table{
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+.footer a{
+    
+    text-decoration: none;
+}
+
+
+
+.image-galeries{
+    margin-left: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 5px;
     margin-top: 20px;
-    margin-bottom: 20px;
-
-   }
-
-   .main-content{
-    width:70%;
-    float:left;
-    padding: 10px;
-    color:red;
-    font-style: italic;
-    
-   }
-
-
-
-   .italic{
-    font-style: italic;
-    font-size: 50px;
-    font-weight: 800;
-    color: aqua;
-
-   }
-
-   h1,h2,h3{
-    text-align: left;
-    font-family: "Edu NSW ACT Foundation", cursive;
-    
-   }
-
+    margin-right: auto;
  
- 
-   img{
-    width: 30%;
-    height:30%;
+}
+
+.main-gallery{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+
+
+.image-galeries  .project-info{
+    padding-top: 15px;
+    text-align: center;
+    color: black;
     
-   }
+    
+}   
+
+.articles{
+    display: flex;
+    justify-content: flex-start; 
+    padding-left: 100px;
+}
+
+.articles .about-photo{
+    border: 1px solid black;    
+    border-radius: 100px;
+    margin-left: 50px;
+}
 
 
-   #myDiv{
-    background-color: green;
-    font-size: 18px;
-    width:20%;
-   }
-
-id unique */
+.menu-item > a:first-child{
+    font-weight:bold;
+}
 
 
+.form{
+    margin-left: 100px;
+    padding-top: 10px;
+    border-radius: 100px;
+    
+    
+}
 
-
-
-
-/* yatayda hizalama justify content düşeyde align items ile hizalama */
-
-/* flex wrap no ise yatyda kayırdma gerekli with  */
-
-/* 
-space around her eksen eşit space between baştan sondan eşit ortası eşit değil  */
-
-/* flex 1 ise flex değişebilir flex initial ise sabit */
-
-
-
-
+.contact-header{
+    margin-left: 100px;
+    margin-top: 50px;
+}
 
